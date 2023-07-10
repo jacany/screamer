@@ -24,7 +24,7 @@ import term
 fn main() {
 	println('Starting up lol')
 	relays := ['wss://relay.damus.io', 'wss://relay.snort.social']
-	whitelisted := [0, 1]
+	// whitelisted := [0, 1]
 	mut from_channels := []chan string{} // out of relay
 	mut to_channels := []chan string{} // to relay
 
